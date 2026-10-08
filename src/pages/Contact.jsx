@@ -8,7 +8,7 @@ export function ContactInfo() {
     <Reveal className="info">
       <h2>Find Us</h2>
       <p className="ci"><Icon name="pin" size={18} /><span>{contact.address[0]}<br />{contact.address[1]}</span></p>
-      <p className="ci"><Icon name="whatsapp" size={18} /><span><a href={waLink()} target="_blank" rel="noreferrer">Phone Number: {contact.whatsapp}</a></span></p>
+      <p className="ci"><Icon name="whatsapp" size={18} /><span><a href={waLink()} target="_blank" rel="noreferrer">WhatsApp: {contact.whatsapp}</a></span></p>
       <p className="ci"><Icon name="mail" size={18} /><span>{contact.email}</span></p>
       <h3>Opening Hours</h3>
       {contact.hours.map(([d, t]) => <p key={d} className="hr"><span>{d}</span><b>{t}</b></p>)}

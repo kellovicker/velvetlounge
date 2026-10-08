@@ -4,7 +4,7 @@ import { contact, waLink } from './data'
 // ---- n8n connection -------------------------------------------------------
 // Set VITE_N8N_WEBHOOK_URL in .env (see .env.example). Leave empty to run in demo mode.
 const WEBHOOK_URL = import.meta.env.VITE_N8N_WEBHOOK_URL || ''
-const QUICK = ['View menu', 'Book a table', 'Opening hours', 'Talk to a human', 'Get direction']
+const QUICK = ['View menu', 'Book a table', 'Opening hours', 'Talk to a human']
 
 const getSession = () => {
   try {
