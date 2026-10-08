@@ -5,7 +5,7 @@ import { PageHero, Reveal } from '../Parts'
 
 export function ContactInfo() {
   return (
-    <Reveal className="info">
+    <Reveal className="info">   
       <h2>Find Us</h2>
       <p className="ci"><Icon name="pin" size={18} /><span>{contact.address[0]}<br />{contact.address[1]}</span></p>
       <p className="ci"><Icon name="whatsapp" size={18} /><span><a href={waLink()} target="_blank" rel="noreferrer">WhatsApp: {contact.whatsapp}</a></span></p>
